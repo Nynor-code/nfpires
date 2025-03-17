@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bias in Movie Ratings</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FREEHTML5.CO" />
+
+  <!--
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic|Roboto:400,300,700' rel='stylesheet' type='text/css'>
+	<!-- Animate -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon -->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Salvattore -->
+	<link rel="stylesheet" href="css/salvattore.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="fh5co-offcanvas">
+		<a href="#" class="fh5co-close-offcanvas js-fh5co-close-offcanvas"><span><i class="icon-cross3"></i> <span>Close</span></span></a>
+		<div class="fh5co-bio">
+			<figure>
+				<img src="images/nuno.png" class="img-responsive">
+			</figure>
+			<h3 class="heading">About Me</h3>
+			<h2>Nuno Figueiredo Pires</h2>
+			<p>Data Scientist | Business Transformation & Analytics</p>
+			<p> Data-driven professional transitioning into data science with 20+ years of 
+				experience in digital transformation, operations, and strategic decision-making. 
+				Proficient in Python, SQL, data science and machine learning, with a strong ability to translate 
+				business challenges into data-driven solutions. Passionate about leveraging analytics, 
+				automation, and Al to optimize business processes and drive innovation. </p>
+			<ul class="fh5co-social">
+				<li><a href="https://github.com/Nynor-code" target="_blank"><i class="icon-github"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/nfpires" target="_blank"><i class="icon-linkedin"></i></a></li>
+				<!--
+				<li><a href="#"><i class="icon-twitter"></i></a></li>
+				<li><a href="#"><i class="icon-facebook"></i></a></li>
+				<li><a href="#"><i class="icon-instagram"></i></a></li>
+			-->
+			</ul>
+		</div>
+
+		<div class="fh5co-menu">
+			<div class="fh5co-box">
+				<h3 class="heading">Categories</h3>
+				<ul>
+					<li><a href="index.html">Data Science</a></li>
+					<li><a href="aboutme.html">About Me</a></li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- END #fh5co-offcanvas -->
+	<header id="fh5co-header">
+
+		<div class="container-fluid">
+
+			<div class="row">
+				<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+				<ul class="fh5co-social">
+					<li><a href="https://github.com/Nynor-code" target="_blank"><i class="icon-github"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/nfpires" target="_blank"><i class="icon-linkedin"></i></a></li>
+					<!--
+					<li><a href="#"><i class="icon-twitter"></i></a></li>
+					<li><a href="#"><i class="icon-facebook"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+				-->
+				</ul>
+				<!--
+				<div class="col-lg-12 col-md-12 text-center">
+					<h1 id="fh5co-logo"><a href="index.html">Data Science Magazine</a></h1>
+				</div>
+-->
+			</div>
+		</div>
+	</header>
+	<!--
+	<a href="#" class="fh5co-post-prev"><span><i class="icon-chevron-left"></i> Prev</span></a>
+	<a href="#" class="fh5co-post-next"><span>Next <i class="icon-chevron-right"></i></span></a>
+-->
+	<!-- END #fh5co-header -->
+	<div class="container-fluid">
+		<div class="row fh5co-post-entry single-entry">
+			<article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+				<center><figure class="animate-box">
+					<img src="images/movie_intro.jpg" width=700>
+				</figure></center>
+				<span class="fh5co-meta animate-box"><a href="single.html">Unsupervised Machine Learning</a></span>
+				<h2 class="fh5co-article-title animate-box"><a href="single.html">Bias in Movie Ratings</a></h2>
+				<span class="fh5co-meta fh5co-date animate-box">December 10th, 2017</span>
+
+
+				<div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+					<div class="row">
+							<p>Watching movies is one of the most popular pasttimes today.
+								There are so many movies being released for streaming every year, and it is impossible to keep up with all of them.
+								When someone is looking for a new movie to watch, he/she will often turn to movie-related sites,
+								like IMDB or rotten tomatoes, which aggregate ratings, reviews, and other information about movies.
+								One of the most important factors influencing one's decision to watch a movie is the overall rating.
+								However, does the rating reasonably represent the entire population's opinion of the movie?</p>
+
+
+												<center><figure>
+													<img src="images/movielens.png" width=700>
+												</figure></center>
+
+							<p>To address this question, I will use the enormous MovieLens data sets (http://movielens.org),
+								which is collected by GroupLens Research (https://grouplens.org/datasets/movielens/).
+								This dataset consists of more than 26 million ratings of approximately 45,000 movies,
+								with around 270,000 users.</p>
+
+
+					<div class="row">
+
+						<h3>Take a look at the distribution of movie release years by genre</h3>
+
+							<figure>
+								<img src="images/movie_fig1.png"
+							</figure>
+							<p>Drama and Comedy films clearly vastly outnumber all the other genres! The plot above only demonstrates
+								the relative popularity of different genres over time.</p>
+								<h3>Next, examine the relative popularity of each genre overall</h3>
+
+								<figure>
+									<img src="images/movie_fig2.png">
+								</figure>
+
+
+
+							<p>The above bar-plot shows the total number of movies for each genre. Drama and Comedy
+								are the most dominant genres, which means that many people like watching movies of these genres,
+								and so it is likely that producers try to make these types of films more frequently. Note that
+								the total number of movies in the figure above is greater than the previous
+								movie distribution plot because movies are counted multiple times if they have multiple genres. </p>
+
+								<p>The above table shows the combined datasets when I merge the movie table with the users and their ratings.
+									Now, it is possible to track users behavior in their ratings. So, one way I could explore potential bias in
+									 a user's ratings is to assess whether a fan of a certain genre will rate movies of that genre higher/lower
+									 than the general public.
+									 First we need to define what is a fan of a genre. </p>
+
+									<h3>How can we define a group of fans for each genre?</h3>
+									<p>Selecting the fans for each genre is a tough mission. In this project,
+										I define fans for each genre as people who reviewed the specific genre more
+										frequently compared to movies of other genres. For example, considering a person
+										(person A) reviewed 1,000 movies in the dataset, and person A reviewed 300 SciFi movies out of
+										the 1,000 they reviewed. I would consider person A to be a fan of SciFi (For the average person,
+										SciFi movies only account for 6% of the movies they rated). I will explain in detail in the charts below.</p>
+										<figure>
+											<img src="images/movie_fig3.png">
+										</figure>
+
+										<figure>
+											<img src="images/movie_fig4.png">
+										</figure>
+										<p>The pie chart above is an example of two people's genre distributions for all the movies they rated.
+											The reason why Drama and Comedy are more dominant than other genres is because there are many movies
+											in these genres. The high fraction for drama and comedy does not neccesarily mean that they are fans
+											of Drama or Comedy, but might simply reflect the fact that these genres are so prevalent. The charts
+											 above are pretty typical of an average users voting habits in the MovieLens database.</p>
+
+											 <p>Now, let's look at a few outliers. The chart below shows the rating distributions for people who appear to be fans of Horror movies.</p>
+											 <figure>
+	 											<img src="images/movie_fig5.png">
+	 										</figure>
+											<p><strong>Note that the UNUSUAL Horror fans rated far fewer movies than typical users in my samples.</strong>
+												 As seen in the chart above, the distribution is very different from the previous plots.
+												In the case of these people, I will consider them to be fans of horror movies.</p>
+
+												<p>I selected fans of each genre following the steps below:</p>
+
+												<ol>
+													<li>Start by looking at the relative fraction of ratings by genre for the overall population.
+														Then, it stands to reason that someone who is a fan of a certain genre, and who watches a
+														disproportionately large fraction of movies in that genre,
+														would rate movies in that genre more frequently than the average person does.</li>
+														<li>Look for outliers who rated movies of that genre at a much higher frequency than the overall population.</li>
+												</ol>
+
+												<p>The box-plot below shows the typical range of percentages of certain genres that users reviewed.</p>
+												<figure>
+ 	 											<img src="images/movie_fig6.png">
+ 	 										</figure>
+
+											<p>The colored boxes in the box-plot above highlight the 25%-75% range of the distribution for each genre
+												 that people reviewed. The upper whiskers corresponds to the top 1% of the distribution.
+												 Based on this information, I consider a fan to be a person who is identified as an outlier
+												 above the upper whiskers for each genre. For example, if someone has rated drama movies at more than 35%,
+												 I would define this person as a fan of drama (Look at the box graph for drama). Therefore, I chose 500 people
+												(1% of total sample of 50,000) for each genre as the group of fans for that genre.</p>
+
+												<figure>
+ 	 											<img src="images/action.png" class="img-responsive">
+ 	 										</figure>
+								<p>The figure listes Top 30 Action movies, ordered by the difference between
+									fans' average ratings and non-fans' average ratings. The figure shows that
+									most of TOP 30 movies has higher ratings from the fans of the genre.
+									However, there are some exceptions, which are not popular from the fans. </p>
+
+									However, many movies overlap between different genres
+									and it is not always that easy to separate very similar genres
+									from each other. Therefore, the best approach to analyze movie preferences
+								 might not be to try to separate each genre from each other genre,
+								 but to allow for correlations between genres to be included in the analysis.
+								 In the following section, I will explore an alternate
+								technique using <b>Principal Component Analysis (PCA)</b> and <b>K-means clustering</b>.</p>
+					</div>
+					<figure>
+					<img src="images/overall_plot.png" class="img-responsive">
+					<figcaption>Total number of each genre with multiple genres. For example,
+					first left-row figure indicates the number of each genre with <i>Action</i> genre.
+					</figcaption>
+				</figure>
+				<h3> Let's examine any correlations between the ratings of different genres</h3>
+
+					<figure>
+					<img src="images/cor.png" class="img-responsive">
+				</figure>
+			<p>The correlation matrix heatmap above reveals some fundamental characteristics of
+				movies and user preferences that are worth explaining, namely:</p>
+
+				Strong correlations exist between:
+				<ul>
+					<li>Action & Adventure</li>
+					<li>Action & SciFi</li>
+					<li>Animation & Children</li>
+					<li>Animation & Fantasy</li>
+					<li>Adventure & Fantasy</li>
+					<li>Children & Fantasy</li>
+				</ul>
+
+				Strong anti-correlations exist between:
+				<ul>
+					<li>Action & Drama</li>
+					<li>Action & Romance</li>
+					<li>Adventure & Drama</li>
+					<li>Children & Crime</li>
+					<li>Musical & Thriller</li>
+				</ul>
+
+				Correlations and anti-correlations with av_Year shows which genres tend to be more
+				common in recent years (Action, Adventure, Fantasy, SciFi, and Thriller) and which genres
+				had their heyday in the past (Film Noir, Musical, War, and Western), respectively.
+
+				<h3> Let's examine the genre preferences in a more quantitative statistical way, using Principal Component Analysis (PCA)</h5>
+
+				<p>
+				I take the matrix of users (rows) and number of reviews by genre (columns) and perform a
+				decomposition of that matrix into the sum of eigenvectors times corresponding eigenvalues.
+				This has the effect of re-casting the matrix into a set of orthogonal axes, and when I sort
+				those eigenmodes from the largest (absolute value) eigenvalue to smallest, the first couple of
+				eigenmodes each correspond to the axes along which we find the greatest variance in our data.
+				The result, plotted blow for the top two eigenmodes, shows how each of them naturally
+				corresponds to some of the most fundamental divides between user preferences
+				in genres (where we see weights of some genres having similar or opposing signs)</p>
+
+				<figure>
+				<img src="images/pca_poster.jpg" class="img-responsive">
+			</figure>
+			<p>The <b>upper-left</b> of the figure above corresponds to strong weights for Action,
+				Adventure, Fantasy, and SciFi, while the lower-left features the strongest weights for
+				Drama and Romance.
+				This dichotomy represents the most significant single divide in the user movie preferences,
+				 and it's surely one of the most obvious broad divides between types of films.
+
+        The <b>upper-right</b> is dominated by Children, Musical, Animation, and Romance while the lower-right
+			 is Thriller, Crime, Action, and Mystery. This second dimension apparently separates light-hearted
+			  films aimed at children from more gritty, often violent movies geared towards adults.</p>
+
+				<center><figure>
+				<img src="images/prefer.png" class="img-responsive">
+			</figure></center>
+
+			The figures above show the preference for each group. The y-axis is median values of fractions of rating
+			as a function of genre for each group. As you can see, Group 1 has higher fractions for Crime, Thriller, and Mystery
+			while Group 2 has higher fractions for Action, Adventure and SciFi.
+			On ther other hand, Group 5 has higher fractions for Adventure, Animation, Children and Fantasy.
+			At the same time, Group3 prefer Comedy, Drama, Romance, Musical while Group 6 prefer Documentary, Drama, FilmNoir.
+			Group4 has no preference. This means categorizing by only one genre is difficult to figure out people's exact
+			preference. For example, people in Group 2 like Adventure movie, but they prefer more Adult-style(?) adventure
+			comparing to Group 5 people who prefer Animation, Children and Fantasy.
+			Isn't it interesting?
+
+			Finally, I checked the average ratings for each group about several different movies like below:
+
+			<center><figure>
+			<img src="images/comp_drama.jpg" class="img-responsive">
+		</figure></center>
+<p>These two dramas above demonstrate the really broad range of films that can be called drama.
+	Titanic is much more of a
+	Romance & Adventure Drama, while Fargo is focused on a Criminal Investigation.</p>
+		<center><figure>
+		<img src="images/comp_thriller.jpg" class="img-responsive">
+	</figure></center>
+<p>The Silence of the Lambs is a Thriller which has strong Horror and Criminal elements,
+	which is why it is preferred by G1 and G6 in particular.
+Meanwhile, Die Hard is primarily an Action Thriller that is well-liked by G2.</p>
+	<center><figure>
+	<img src="images/comp_adventure.jpg" class="img-responsive">
+</figure></center>
+<p>In the Adventure genre, there is a very wide range of films that span from light-hearted
+	movies for Children,
+	like Aladdin, to much darker and Action-packed films like Aliens.</p>
+<center><figure>
+<img src="images/comp_music.jpg" class="img-responsive">
+</figure></center>
+<p>In Musicals, there is likewise a split between the films intended for adults, like Chicago,
+	and those geared towards children, like the Lion King.</p>
+
+	<h2>Conclusions</h2>
+<p>I have examined the ratings that people give to movies, and how those ratings might be biased by people's preferences for certain kinds of movies. It is clear that distinct biases exist based on one's movie preferences. To study these biases more quantitatively, I first used a simple approach that treated each genre independent of each other, but I also clearly found evidence of strong correlations
+(and anti-correlations) between some genres. So a more rigorous approach was taken to
+study user preferences which allowed for the inherent correlations between genres to be
+ included by using PCA.
+
+The PCA analysis reduced the available features to just two dimensions, corresponding to
+the two most significant eigenmodes that contribute to the variance in the data. From these
+two dimensions, I selected six distinct clusters using the unsupervised learning algorithm called
+KMeans clustering. After checking the different ratings given by users in these six clusters,
+a pattern emerges that reveals some of the most fundamental divides in movie preferences. </p>
+			</article>
+	</div>
+<!--
+	<footer id="fh5co-footer">
+		<p><small>&copy; 2016. Magazine Free HTML5. All Rights Reserverd. <br> Designed by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a>  Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p>
+	</footer>
+-->
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
